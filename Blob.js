@@ -6,6 +6,7 @@ $(function() {
   alert('このブラウザには対応していません');
  }
  
+ 
  $("#content").keyup(function(){
   setBlobUrl("download", $("#content").val());
  });
